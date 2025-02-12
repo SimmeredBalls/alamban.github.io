@@ -1,6 +1,202 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Gudea, sans-serif;
+    font-size: 16px;
+    color: #111;
+    overflow-y: scroll;
+}
+
 #page {
     width: 900px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 50px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#header {
+
+    margin-top: 25px;
+
+    padding-bottom: 4px;
+
+    border-bottom: 1px solid #a0a0a0;
+
+    margin-bottom: 7px;
+
+}
+
+
+
+#title {
+
+    font-size: 16pt;
+
+    font-weight: bold;
+
+    color: #405580;
+
+}
+
+
+
+.code-font {
+
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+
+}
+
+
+
+#cursor {
+
+    padding-left: 10px;
+
+    animation: 1s blink infinite steps(1, start);
+
+    margin-left: 10px;
+
+    margin-right: 10px;
+
+}
+
+    @keyframes blink {
+
+        0%, 100% {
+
+            background-color: #111;
+
+            color: #aaa;
+
+        }
+
+        50% {
+
+            background-color: #f0f0f0;
+
+            color: #aaa;
+
+        }
+
+    }
+
+#social_media {
+
+    float: right;
+
+    margin-bottom: -5px;
+
+}
+
+
+
+#social_media a {
+
+    text-decoration: none;
+
+}
+
+
+
+.social_ico {
+
+    width: 20px;
+
+    height: 20px;
+
+    padding: 0px;
+
+    border: 0px;
+
+    border-radius: 0px;
+
+    margin-top: 4px;
+
+    opacity: 0.65;
+
+}
+
+#menu {
+
+    margin-bottom: 20px;
+
+}
+
+#menu .active {
+
+    font-weight: bold;
+
+}
+
+
+
+#menu li {
+
+    display: inline;
+
+    cursor: pointer;
+
+    margin-right: 22px;
+
+}
+
+
+
+#menu ul {
+
+    list-style-type: none;
+
+    margin: 0px;
+
+    padding: 0px;
+
+}
+
+
+#menu a {
+    color: #405680;
+    text-decoration: none;
+}
+
+#feed h1 {
+    padding: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+#feed a {
+    padding: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: #405680;
+    text-decoration: none;
+}
+
+
+/*about me page*/
+.right {
+    float: right;
+    margin: 10px;
+}
+
+p {
+    padding: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
 }
