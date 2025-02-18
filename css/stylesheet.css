@@ -162,41 +162,58 @@ div {
     text-decoration: none;
 }
 
-#feed h1 {
-    padding: 20px;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-}
 
-#feed a {
-    padding: 20px;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+h1 {
     color: #405680;
-    text-decoration: none;
-}
-
-
-/*about me page*/
-.right {
-    float: right;
-    margin: 10px;
+    font-size: 16pt;
+    margin-bottom: 7px;
 }
 
 p {
-    padding: 20px;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+    padding-bottom: 20px;
 }
+
+a {
+    color: #405680;
+}
+
+
+img.right {
+    float: right;
+    margin: 10px;
+    margin-left: 25px;
+}
+
+div.section_divider {
+    width: 500px;
+    border-bottom: 1px solid #AAA;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+
+    div.section_divider h2 {
+        display: inline;
+    }
+
+    h2 {
+        color: #357671;
+        font-size: 15pt;
+        margin-bottom: 5px;
+    }
+
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        unicode-bidi: isolate;
+    }
+
+    li {
+        display: list-item;
+        text-align: match-parent;
+        unicode-bidi: isolate;
+    }
